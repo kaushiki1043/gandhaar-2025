@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pattaya&display=swap');
+
+.registration-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  font-family: "Montserrat", serif; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+  background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+}
+
+.regPage-content h1, .regPage-content p {
+  color: #2e1a47; 
+}
+
+.regPage-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Fugaz One", cursive; 
+}
+
+.regPage-content p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 500;
+}
+
+
+
+.bubbles {
+  position: fixed; 
+  top: 0;
+  left: 22%; 
+  width: 80%; 
+  height: 100%; 
+  overflow: hidden;
+  z-index: 1; 
+}
+
+  @media(max-width: 400px){
+    .regPage-content h1 {
+        font-size: 2rem;
+      }
+      
+      .regPage-content p {
+        font-size: 1rem;
+      }
+
+  }
+
+  @media (min-width: 1000px) {
+    .regPage-content h1 {
+        font-size: 5rem;
+      }
+      
+      .regPage-content p {
+        font-size: 2rem;
+      }
+
+  }

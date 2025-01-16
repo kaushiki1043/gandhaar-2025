@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kaushan+Script&family=Lavishly+Yours&family=Mogra&family=Niconne&family=Rubik+Gemstones&family=Satisfy&family=Updock&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&family=Playwrite+MX+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Playwrite+MX+Guides&display=swap');
+
+
+.header {
+    position: relative;
+    display: flex;  
+    flex-direction: column;
+    height: 60em ;
+   
+   background-image:
+    url("/src/images/Gandhaar_collage10.png");
+
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+ 
+  }
+
+
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.477);
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+ 
+  .header * {
+    position: relative;
+    z-index: 2;
+  }
+   
+  .header img {
+   
+  }
+  .logos{
+    display: flex;
+   
+    height: fit-content;
+    width: fit-content;
+  }
+
+
+  .tag {
+   
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+@keyframes popUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(20px);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.1) translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.tag p {
+    margin: 0;
+    text-align: center;
+}
+.tag1,
+.tag2{
+  font-family:'Cinzel', serif;
+  background: linear-gradient(90deg, #ffdf78, #fda085, #ffe181);
+
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  text-shadow: 0 0 2px #ffe58e;
+}
+.tag1{
+font-size: 1.8em;
+font-weight: bold;
+}
+
+
+.tag3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+.tag3 span{
+  font-size: 8em;
+ 
+  font-family: "Merienda", cursive;
+ 
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+ 
+  background: linear-gradient(90deg, #abd5d2, #82ffb2, #1ac0b2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+ 
+  text-shadow: 0.3rem 0.1rem 0 #f9f9f9;
+}
+
+
+
+
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 3rem;
+  height: fit-content;
+}
+
+
+
+
+
+
+.logo-left, .logo-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+.logo-left{
+margin-left: 15px;
+}
+.logo-right{
+margin-right: 15px;
+}
+
+
+#logo1 {
+  height: 5em;
+ 
+}
+ #logo2 {
+  height: 5em;
+ 
+}
+
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+
+.nav-item {
+  margin: 0.5rem;
+}
+
+
+.nav-item .nav-link {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 0.2rem 0.2rem;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.4s ease;
+  background: linear-gradient(90deg, #d8d8d8, #f8f9fa, #d8d8d8);
+
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+
+
+.nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(135deg, rgba(255, 136, 0, 0.874) 10%, rgba(255, 128, 0, 0.769) 100%);
+  border-radius: 15px;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+
+
+.nav-item .nav-link:hover::before {
+  left: 0;
+}
+
+
+.nav-item .nav-link:hover {
+  color: white;
+}
+
+
+.menu-button {
+  display: none;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px 7px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #11998e, #8138ef);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+.menu-button:hover {
+  background: linear-gradient(135deg, #6f38ef, #11998e);
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+.menu-button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+@media (max-width: 968px) {
+  .header {
+    background-image: url("/src/images/phone_size2.png");
+    height: 40em ;
+   
+  }
+  .nav-menu {
+    display: none;
+  }
+ 
+  .tag1{
+    font-size: 1.3em;
+   
+    }
+   
+    .tag2{
+      font-size: 1em;
+ 
+    }
+  .tag3 span{
+    font-size: 3.5em;
+  }
+  .menu-button {
+    display: block;
+  }
+}
+
+
+.floating-icon {
+  position: fixed;
+  bottom: 5em;
+  right: 2em;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: bounce 2s infinite;
+  z-index: 1000;
+  background-image: url(/src/images/macaw1.png);
+  background-size: cover;
+ 
+}
+
+
+.floating-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.floating-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  text-align: center;
+ 
+ 
+}
+
+
+.floating-content span {
+  font-size: 24px;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

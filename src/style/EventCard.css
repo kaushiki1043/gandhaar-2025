@@ -1,0 +1,91 @@
+.card-container {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  position: absolute;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 15px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card.center {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 2;
+}
+
+.card.left, .card.right {
+  transform: scale(0.8);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.card.left {
+  left: -30%;
+}
+
+.card.right {
+  right: -30%;
+}
+
+.card.hidden {
+  display: none;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left-button {
+  left: 10px;
+}
+
+.right-button {
+  right: 10px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #717171;
+}

@@ -1,0 +1,8 @@
+body{
+  margin: 0px;
+  background: linear-gradient(
+  to top,
+  rgb(209, 247, 241) 8.3%, 
+  rgb(249, 213, 213) 81% 
+);
+ }

@@ -1,0 +1,90 @@
+.launch-page-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+video {
+  background-color: black;
+  width: 1000px;
+  height: 750px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.music-loading-bar {
+  position: relative;
+  width: 1000px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  margin-top: 20px;
+  padding: 0 20px;
+  bottom: 40px;
+}
+
+.wave {
+  width: 5px;
+  height: 15px;
+  background-color: #ff6600;
+  animation: wave-animation 2s infinite ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes wave-animation {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 25px;
+  }
+  100% {
+    height: 10px;
+  }
+}
+
+.music-loading-bar-progress {
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: width 0.3s ease;
+}
+
+.loading-percentage {
+  position: absolute;
+  bottom: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  z-index: 15;
+  margin-left: 250px;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(90deg, #ff6600, #ffc107, #00ccff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: fade-in 2s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

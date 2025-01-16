@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+
+
+
+.schedule-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 2px;
+  padding-top: 20px;
+  padding-left: 90px;
+  height: 95vh;
+  background: linear-gradient(to bottom, #1b1302, #250123, #640e61, #6f096c, rgb(17, 2, 87));
+}
+
+
+
+
+
+
+
+
+.schedule-title{
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color:  #1b1302;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+.time-slot-container {
+  position: relative;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+.time-slot {
+  position: relative;
+  height: 120px;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+ 
+}
+
+
+
+
+
+
+
+
+.day-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  z-index: 10;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.day-button {
+  padding: 10px 20px;
+ 
+  background: linear-gradient(45deg, #ff3366, #cc33cc, #9933ff);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+
+.day-button.active {
+  background: linear-gradient(45deg, #ff6600, #ff3366, #ff0066);
+}
+
+
+
+
+
+
+
+
+.day-button:hover {
+  background: linear-gradient(45deg, #ff7eb3, #660066);
+}
+
+
+
+
+
+
+
+
+.schedule-container {
+  display: grid;
+  grid-template-columns: 7vw repeat(16, 5vw);
+  grid-template-rows: repeat(24, 3vh);
+  gap: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  height: 80vh;
+  margin-bottom: 0.1em;
+  margin-left: -80px;
+}
+
+
+
+
+
+
+
+
+.schedule-container.day-3 {
+  grid-template-columns: 6vw repeat(17, 4vw);
+  grid-template-rows: repeat(28, 3vh);
+  padding: 5px;
+  margin-right: 2px;
+  margin-top: 5px;
+  height: 80vh;
+  margin-bottom: 0.1em;
+  margin-left: -80px;
+}
+.schedule-container.day-3 .event-Ename {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 12px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+.event-Ename {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.special-event {
+  font-size: 13px !important;
+  width: 200px !important;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+.time-label {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+.schedule-container .time-slot {
+  height: 5vh;
+  line-height: 5vh;
+}
+
+
+
+
+
+
+
+
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.start-time
+{
+  content: attr(data-start);
+  position:absolute;
+  top: 1px;
+  left: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1px 1px;
+  border-radius: 5px;
+  font-size: 8px;
+  color: #fff;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+
+
+.end-time
+{
+  content: attr(data-end);
+  position: absolute;
+  bottom: 1px;
+  left: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1px 1px;
+  border-radius: 5px;
+  font-size: 8px;
+  color: #fff;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+ 
+}
+.event:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+.modal-overlay {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
+
+.modal {
+  background: #fff;
+  display: block !important;
+  padding: 20px;
+  border-radius: 10px;
+  width: 25vw;
+  height: 25vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 2000;
+}
+
+
+
+
+
+
+
+
+.modal h2 {
+margin: 40px;
+font-size: 18px;
+color: #333;
+}
+
+
+
+
+
+
+
+
+.modal p {
+font-size: 14px;
+margin: 25px;
+color: #666;
+padding: 5px;
+}
+
+
+
+
+
+
+
+
+.modal button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ff7eb3;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+.modal button:hover {
+  background-color: #ffb347;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 700px)
+{
+  .time-slot-container
+  {
+    margin-left: -45px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+
+
+
+
+  .schedule-title{
+    font-size: 70px;
+  }
+  .schedule-container
+  {
+    grid-template-columns: 2vw repeat(10, 4vw);
+  }
+  .schedule-container.day-3
+  {
+    grid-template-columns: 2vw repeat(16, 4vw);
+  }
+
+
+
+
+
+
+
+
+  .time-slot {
+    font-size: 5px;
+  }
+
+
+
+
+
+
+
+
+  .time-slot-container
+  {
+    margin-left: -8px;
+  }
+
+
+
+
+
+
+
+
+  .time-label
+  {
+    left: 30%;
+    font-size: 8px;
+    padding: 2px 3px;
+  }
+
+
+
+
+
+
+
+
+  .day-button {
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+  .day-buttons
+  {
+    margin-left: -80px;
+  }
+
+
+
+
+
+
+
+
+  .event-Ename {
+    font-size: 6px !important;
+    width: 40px !important;
+    height: 60px !important;
+  }
+
+
+
+
+
+
+
+
+  .special-event
+  {
+    font-size: 6px !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+
+
+
+
+
+
+
+  .schedule-container.day-3 .event-Ename
+  {
+    font-size: 5px !important;
+    width: 30px !important;
+    height: 50px !important;
+  }
+ 
+
+
+
+
+
+
+
+
+  .start-time,.end-time
+  {
+    font-size: 6px;
+    padding: 0.5px 0.5px;
+  }
+  .modal-overlay
+  {
+    width: 60%;
+    height: 40%;
+    top: 25%;
+    left: 25%;
+
+
+
+
+
+
+
+
+  }
+ 
+  .modal h2
+  {
+    font-size: 15px;
+    margin: 10px;
+  }
+
+
+
+
+
+
+
+
+  .modal p
+  {
+    font-size: 12px;
+    margin: 10px;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+

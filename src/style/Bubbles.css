@@ -1,0 +1,86 @@
+
+.bubbles {
+  position: fixed; 
+  top: 0;
+  left: 22%; 
+  width: 80%; 
+  height: 100%; 
+  overflow: hidden;
+  z-index: -1; 
+}
+
+
+.bubble-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #333;
+  z-index: 2; 
+}
+
+.bubble-toggle:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.bubble-container {
+  position: absolute;
+  bottom: 0;
+  will-change: transform;
+  animation: bubblerise 4s ease-in infinite;
+  opacity: 0;
+  z-index: 1;
+
+
+.bubble-container {
+  animation-duration: 6s; 
+}
+}
+
+.bubble {
+  width: 6px;
+  height: 6px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  animation: bubblewobble 0.4s linear infinite;
+}
+
+@keyframes bubblerise {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  5% {
+    bottom: 0;
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    bottom: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes bubblewobble {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 2px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .bubbles {
+    left: 0; 
+    width: 100%; 
+  }
+}
