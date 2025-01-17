@@ -13,9 +13,10 @@ const RegistrationPage = () => {
         &larr;
       </button>
       <div className="regPage-content">
-        <h1>Registrations Will Begin Soon!</h1>
+        <h2>Registrations for the event are now closed</h2>
         <p>
-          Thank you for your interest in our events. Stay tuned for updates!
+          As we have reached the maximum number of participants. Thank you for
+          your interest!
         </p>
       </div>
     </div>

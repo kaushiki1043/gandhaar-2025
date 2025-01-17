@@ -765,8 +765,7 @@ const events = {
       { name: "Aditi Pardeshi", phone: "7447554554" },
       { name: "Aarohii Hanji", phone: "9765154647" },
     ],
-    registerLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfmDcfijutYY5ZFfG7sV1opnAaWztwAjuV7vzJl7njcIN_kWg/viewform?usp=sf_link",
+    registerLink: "/registration",
   },
   TreasureHunt: {
     image: require("../images/open.png"),
@@ -2462,7 +2461,8 @@ const events = {
       { name: "Devyani Patil", phone: "9403494735" },
       { name: "Samruddhi Pawar", phone: "9850558436" },
     ],
-    registerLink: "/registration",
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSe3nH27pGb1EFxMKCy1AHH2Yl57S5Oid0I-3KE6ueL1gQ4cEw/viewform?usp=sf_link",
   },
 
   dodgeballInCircle: {
@@ -2510,7 +2510,8 @@ const events = {
       { name: "Apurva Gapchup", phone: "7666687656" },
       { name: "Arya Desai", phone: "8767029511" },
     ],
-    registerLink: "/registration",
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeEdzp4ugyL78p_GaruWye_GwOeBMmeUzczlnc7v5z0uzk22w/viewform?usp=header",
   },
   upDownRace: {
     image: require("../images/sports.png"),
@@ -2557,7 +2558,8 @@ const events = {
       { name: "Apurva Gapchup", phone: "7666687656" },
       { name: "Arya Desai", phone: "8767029511" },
     ],
-    registerLink: "/registration",
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLScO5ObV7Yx7Go6xY-04NL52wMyUWKfpqJkQwP8oIfVeaBsPxw/viewform?usp=header",
   },
 
   coneRush: {
@@ -2602,7 +2604,8 @@ const events = {
       { name: "Sneha Ranade", phone: "9172457943" },
       { name: "Jui Khambe", phone: "8379008019" },
     ],
-    registerLink: "/registration",
+    registerLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfPF_8IKMeRA49btiGiOORu3N0SqJyzUbvoqErlWbrpRRDEIQ/viewform?usp=sf_link",
   },
 };
 

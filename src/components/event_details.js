@@ -468,6 +468,54 @@ const event_details = {
       "https://static.wixstatic.com/media/95dc62_f6350456601847699660ed55b26c6463~mv2.jpg/v1/fit/w_2500,h_1330,al_c/95dc62_f6350456601847699660ed55b26c6463~mv2.jpg",
     detailsUrl: "/event/expressionDance",
   },
+  "Octopus Race": {
+    start: "8:00 AM",
+    end: "10:00 AM",
+    location: "Samstha Ground",
+    category: "Joyland",
+    day: "Jan 30",
+    teamSize: "4",
+    Participation: "1 team per class",
+    imageUrl:
+      "https://www.shutterstock.com/image-photo/red-octopus-260nw-2449167195.jpg",
+    detailsUrl: "/event/octopusRace",
+  },
+  "Dodgeball In Circle": {
+    start: "10:00 AM",
+    end: "11:00 AM",
+    location: "Samstha Ground",
+    category: "Joyland",
+    day: "Jan 31",
+    teamSize: "1",
+    Participation: "1 student per class",
+    imageUrl:
+      "https://img.freepik.com/premium-photo/dodgeball-game-progress-with-players-dodging-throwing-balls_1314467-116358.jpg",
+    detailsUrl: "/event/dodgeballInCircle",
+  },
+  "Up Down Race": {
+    start: "8:00 AM",
+    end: "10:00 AM",
+    location: "Samstha Ground",
+    category: "Joyland",
+    day: "Jan 31",
+    teamSize: "4",
+    Participation: "1 team per class",
+    imageUrl:
+      "https://img.freepik.com/premium-vector/girls-running-race-marathon-cart-event-outdoors_1316704-14111.jpg",
+    detailsUrl: "/event/upDownRace",
+  },
+  "Cone Rush": {
+    start: "10:00 AM",
+    end: "11:00 AM",
+    location: "Samstha Ground",
+    category: "Joyland",
+    day: "Jan 30",
+    teamSize: "1",
+    Participation: "1 student per class",
+    imageUrl:
+      "https://img.freepik.com/premium-photo/group-colorful-cones_1308175-208949.jpg",
+    detailsUrl: "/event/coneRush",
+  },
 };
 
 export default event_details;
