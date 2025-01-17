@@ -29,7 +29,7 @@ const items = [
   { image: image8, alt: "HAUTE ROUTE" },
   { image: image9, alt: "THEATRICAL TAPESTRY" },
   { image: image10, alt: "SKILL LAB" },
-  
+  { image: image11, category: "JOYLAND" },
 ];
 
 function EventSource() {
