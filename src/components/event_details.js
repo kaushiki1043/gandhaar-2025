@@ -481,8 +481,8 @@ const event_details = {
     detailsUrl: "/event/octopusRace",
   },
   "Dodgeball In Circle": {
-    start: "10:00 AM",
-    end: "11:00 AM",
+    start: "9:30 AM",
+    end: "10:00 AM",
     location: "Samstha Ground",
     category: "Joyland",
     day: "Jan 31",
@@ -505,8 +505,8 @@ const event_details = {
     detailsUrl: "/event/upDownRace",
   },
   "Cone Rush": {
-    start: "10:00 AM",
-    end: "11:00 AM",
+    start: "9:30 AM",
+    end: "10:00 AM",
     location: "Samstha Ground",
     category: "Joyland",
     day: "Jan 30",

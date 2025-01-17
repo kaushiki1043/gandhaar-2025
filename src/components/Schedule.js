@@ -181,7 +181,7 @@ const daySchedules = {
       startRow: 1,
       endRow: 5,
       startCol: 2,
-      endCol: 17,
+      endCol: 14,
       start: "8:00 AM",
       end: "10:00 AM",
       background: "linear-gradient(to right, #ff00b3, #00b3ff)",
@@ -192,12 +192,12 @@ const daySchedules = {
       id: 2,
       text: "CONE RUSH",
       Ename: "CONE RUSH",
-      startRow: 5,
-      endRow: 7,
-      startCol: 2,
-      endCol: 5,
-      start: "10:00 AM",
-      end: "11:00 AM",
+      startRow: 4,
+      endRow: 5,
+      startCol: 14,
+      endCol: 17,
+      start: "9:30 AM",
+      end: "10:00 AM",
       background: "linear-gradient(to right, #85e085, #80d4ff)",
       location: "SAMSTHA GROUND",
       href: event_details["Cone Rush"].detailsUrl,
@@ -388,7 +388,7 @@ const daySchedules = {
       startRow: 1,
       endRow: 5,
       startCol: 2,
-      endCol: 18,
+      endCol: 13,
       start: "8:00 AM",
       end: "10:00 AM",
       background: "linear-gradient(to right, #ff00b3, #00b3ff)",
@@ -399,12 +399,12 @@ const daySchedules = {
       id: 2,
       text: "DODGEBALL IN CIRCLE",
       Ename: "DODGEBALL IN CIRCLE",
-      startRow: 5,
-      endRow: 7,
-      startCol: 6,
-      endCol: 14,
-      start: "10:00 AM",
-      end: "11:00 AM",
+      startRow: 4,
+      endRow: 5,
+      startCol: 13,
+      endCol: 18,
+      start: "9:30 AM",
+      end: "10:00 AM",
       background: "linear-gradient(to right, #85e085, #80d4ff)",
       location: "SAMSTHA GROUND",
       href: event_details["Dodgeball In Circle"].detailsUrl,
@@ -881,9 +881,9 @@ const Schedule = () => {
 
               <div
                 className={`event-Ename ${
-                  (selectedDay === "Day3" && event.id === 13) ||
+                  (selectedDay === "Day3" && event.id === 2) ||
                   (selectedDay === "Day4" && event.id === 8) ||
-                  (selectedDay === "Day2" && event.id === 14)
+                  (selectedDay === "Day2" && event.id === 2)
                     ? "special-event"
                     : ""
                 }`}

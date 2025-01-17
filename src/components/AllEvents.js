@@ -2476,7 +2476,7 @@ const events = {
       "Participation: 1 from each class",
       "Venue: Samstha Ground",
       "Date: Day 3 (Friday, 31st January 2025)",
-      "Time: 10:00 AM - 11:00 AM",
+      "Time: 9:30 AM - 10:00 AM",
     ],
     rules: [
       {
@@ -2573,7 +2573,7 @@ const events = {
       "Participation: 1 from each class",
       "Venue: Samstha Ground",
       "Date: Day 2 (Thursday, 30th January 2025)",
-      "Time: 10:00 AM - 11:00 AM",
+      "Time: 9:30 AM - 10:00 AM",
     ],
     rules: [
       {
