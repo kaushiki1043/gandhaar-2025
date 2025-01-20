@@ -153,7 +153,7 @@ const event_details = {
     teamSize: "18 - 21",
     Participation: "1 team per FINAL YEAR class",
     imageUrl:
-      "https://files.oaiusercontent.com/file-4PqiNCwh2xjAaVJGTCTXH7?se=2025-01-15T06%3A56%3A50Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D44738cda-40b2-4a37-adaf-10658350d640.webp&sig=5tDt8lbemI8FnIK1wpMmsAkoiByxdXGW/hcy9MzDAqE%3D",
+      "https://img.freepik.com/premium-photo/fashion-models-walk-runway-fashion-show-with-celestial-backdrop_14117-914773.jpg",
     detailsUrl: "/event/btechfashionShow",
   },
   "Miss Cummins-Beauty Contest": {

@@ -446,7 +446,7 @@ const events = {
       { name: "Sakshi Deshmukh", phone: "7055929394" },
       { name: "Shruti Srinivasan", phone: "8208996654" },
     ],
-    registerLink: " https://forms.gle/3hd3Rsw9Jw1W4gF56",
+    registerLink: "https://forms.gle/3hd3Rsw9Jw1W4gF56",
   },
   departmentAntakshariFaculty: {
     image: require("../images/open.png"),
