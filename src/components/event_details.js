@@ -397,8 +397,8 @@ const event_details = {
     detailsUrl: "/event/djembe",
   },
   "Ukulele Unplugged": {
-    start: "(Day1) 12:30 PM - 4:30 PM",
-    end: "(Day2) 10:00 AM - 2:00 PM",
+    start: "(Day2) 12:30 PM - 4:30 PM",
+    end: "(Day3) 10:00 AM - 2:00 PM",
     location: "IT Bulg",
     category: "Skill Lab",
     day: "Jan 30, Jan 31",
