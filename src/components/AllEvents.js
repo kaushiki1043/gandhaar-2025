@@ -15,7 +15,7 @@ const events = {
       "Participation: 1 team from each class",
       "Venue: Main Building Quadrangle",
       "Date: Day 1 (Wednesday, 29th January 2025)",
-      "Time: 12:30 PM - 6:00 PM",
+      "Time: 5:00 PM - 10:00 PM",
     ],
     rules: [
       {
@@ -223,7 +223,7 @@ const events = {
       "Participation: 1 participant per class",
       "Venue: Stage 2",
       "Date: Day 2 (Thursday, 30th January 2025)",
-      "Time: 3:00 PM - 5:00 PM",
+      "Time: 2:00 PM - 4:00 PM",
     ],
     structureNote: [
       "Round 1: 36 are paired, and 1 gets a bye. 18 winners + 1 bye = 19 advance.",
@@ -459,7 +459,7 @@ const events = {
       "Team Size: -",
       "Venue: Instrumentation Auditorium",
       "Date: Day 1 (Wednesday, 29th January 2025)",
-      "Time: 2:00 PM - 4:00 PM",
+      "Time: 12:30 PM - 2:30 PM",
     ],
     rules: [
       {
@@ -567,7 +567,7 @@ const events = {
       "Participation: 1 student per class",
       "Venue: Stage 2",
       "Date: Day 2 (Thursday, 30th January 2025)",
-      "Time: 12:00  - 2:30 PM",
+      "Time: 12:00  - 1:30 PM",
     ],
 
     rules: [
@@ -629,7 +629,7 @@ const events = {
       "Participation: 1 team per department (1 student per year) ",
       "Venue: KB Joshi Auditorium",
       "Date: Day 1 (Wednesday, 29th January 2025)",
-      "Time: 3:00 PM - 5:00 PM",
+      "Time: 2:30 PM - 4:30 PM",
     ],
     rules: [
       {
@@ -837,7 +837,7 @@ const events = {
       "Participation: 1 team from each FINAL YEAR class",
       "Venue: Samstha Ground",
       "Date: Day 1 (Wednesday, 29th January 2025)",
-      "Time: 6:00 PM - 9:00 PM",
+      "Time: 6:45 PM - 10:00 PM",
     ],
     rules: [
       {
@@ -1434,7 +1434,7 @@ const events = {
       "Participation: 1 team per class",
       "Venue: Mechanical Circle",
       "Date: Day 1 (Wednesday, 29th January 2025)",
-      "Time: 3:30 PM - 5:30 PM",
+      "Time: 2:30 PM - 4:30 PM",
     ],
     rules: [
       {
@@ -2182,7 +2182,7 @@ const events = {
       "Team Size: Individual participation",
       "Venue: Mech Building",
       "Date: Day 2 (Thursday, 30th January 2025)",
-      "Time: 12:30 PM - 2:30 PM",
+      "Time: 11:30 PM - 4:30 PM",
     ],
     rules: [
       {
@@ -2483,26 +2483,33 @@ const events = {
         heading: "Registration and Eligibility",
         points: [
           "Upon completion of registration, it will be considered final, and no alterations will be accommodated under any circumstances.",
-          "There will be four players in each team, divided into two pairs:",
-          "One pair will be sitting, and the other pair will be standing.",
-          "Both pairs must hold hands with their respective partners.",
         ],
       },
       {
         heading: "Gameplay Guidelines",
         points: [
-          "The team that reaches the finish line first, while maintaining proper coordination and without breaking their formation, wins the race.",
-          "Players must complete the race by moving forward while maintaining their positions (one player sitting and the other standing).",
-          "The players in each pair move forward by passing over one another, i.e., the sitting pair moves into a standing position, and the standing pair moves into a sitting position ahead.",
-          "Players must not let go of each other’s hands during the race.",
-          "Teams will be disqualified if they fail to follow the sit-and-stand formation consistently or if their formation breaks.",
+          "Everyone stands in a circle to begin the game.",
+          "One player starts by throwing the ball at someone in the circle.",
+          "The two players beside the target (on their left and right) must immediately sit down.",
+          "If the side players fail to sit quickly, they are eliminated.",
+          "Any player sitting down, other than the two players seated immediately to the left and right of the target, will be eliminated.",
+          "The target (who catches the ball) becomes the next thrower and continues the game.",
+        ],
+      },
+      {
+        heading: "Winning Criteria",
+        points: [
+          "The game continues until only three players are left standing.",
+          "The last three standing are declared the winners.",
         ],
       },
       {
         heading: "Decorum and Conduct",
         points: [
-          "Teams are expected to respect competition decorum.",
-          "Decisions made by the coordinators will be final and binding.",
+          "Players delaying the throw will be warned. Repeated delays result in elimination.",
+          "Intentionally targeting the same person multiple times without fair play will result in the thrower being eliminated.",
+          "If players sit too slowly or pretend to sit but remain standing, they will be eliminated immediately.",
+          "Participants are expected to respect competition decorum.",
         ],
       },
     ],

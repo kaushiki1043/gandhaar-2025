@@ -1,7 +1,7 @@
 const event_details = {
   "Jhoom Junction": {
-    start: "12:30 PM",
-    end: "6:00 PM",
+    start: "5:00 PM",
+    end: "10:00 PM",
     location: "Main Quad",
     category: "Groove Arena",
     day: "Jan 29",
@@ -36,8 +36,8 @@ const event_details = {
     detailsUrl: "/event/classicalDance",
   },
   "The Street Brawl": {
-    start: "3:00 PM",
-    end: "5:00 PM",
+    start: "2:00 PM",
+    end: "4:00 PM",
     location: "Stage 2",
     category: "Groove Arena",
     day: "Jan 30",
@@ -86,7 +86,7 @@ const event_details = {
 
   "Cummins Got Latent": {
     start: "12:00 PM",
-    end: "2:30 PM",
+    end: "1:30 PM",
     location: "Stage 2",
     category: "Gathering Hub",
     day: "Jan 30",
@@ -97,8 +97,8 @@ const event_details = {
     detailsUrl: "/event/CumminsGotLatent",
   },
   "Shantit Kranti": {
-    start: "3:00 PM",
-    end: "5:00 PM",
+    start: "2:30 PM",
+    end: "4:30 PM",
     location: "KB Joshi",
     category: "Gathering Hub",
     day: "Jan 29",
@@ -145,8 +145,8 @@ const event_details = {
     detailsUrl: "/event/TreasureHunt",
   },
   HauteAura: {
-    start: "6:00 PM",
-    end: "9:00 PM",
+    start: "6:45 PM",
+    end: "10:00 PM",
     location: "Samstha Ground",
     category: "Haute Route",
     day: "Jan 29",
@@ -253,8 +253,8 @@ const event_details = {
     detailsUrl: "/event/tShirtSneakerCompetition",
   },
   "Hands On Henna": {
-    start: "3:30 PM",
-    end: "5:30 PM",
+    start: "2:30 PM",
+    end: "4:30 PM",
     location: "Mech Circle",
     category: "Artiscope",
     day: "Jan 29",
@@ -409,8 +409,8 @@ const event_details = {
     detailsUrl: "/event/ukulele",
   },
   "Texture Moon Painting": {
-    start: "12:30 PM",
-    end: "2:30 PM",
+    start: "11:30 PM",
+    end: "4:30 PM",
     location: "Mech Bldg",
     category: "Skill Lab",
     day: "Jan 30",
