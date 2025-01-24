@@ -13,7 +13,7 @@ const events = {
     structure: [
       "Team size: 12-19 (12-16 performers + 3 volunteers)",
       "Participation: 1 team from each class",
-      "Venue: Main Building Quadrangle",
+      "Venue: Samstha Ground",
       "Date: Day 1 (Wednesday, 29th January 2025)",
       "Time: 5:00 PM - 10:00 PM",
     ],

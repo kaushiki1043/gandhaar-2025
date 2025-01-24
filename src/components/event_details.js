@@ -2,7 +2,7 @@ const event_details = {
   "Jhoom Junction": {
     start: "5:00 PM",
     end: "10:00 PM",
-    location: "Main Quad",
+    location: "Samstha Ground",
     category: "Groove Arena",
     day: "Jan 29",
     teamSize: "12-19",
