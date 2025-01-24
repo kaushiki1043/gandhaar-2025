@@ -42,7 +42,7 @@ const daySchedules = {
       start: "5:00 PM",
       end: "10:00 PM",
       background: "linear-gradient(to right, #00f260, #0575e6)",
-      location: "MAIN BUILDING QUADRANGLE",
+      location: "SAMSTHA GROUND",
       href: event_details["Jhoom Junction"].detailsUrl,
     },
 
