@@ -356,7 +356,7 @@ const daySchedules = {
     },
     {
       id: 15,
-      text: "FACULTY PERFORMANCE",
+      text: "SHAAM SHAANDAAR",
       Ename: "SHAAM SHAANDAAR",
       startRow: 21,
       endRow: 22,
