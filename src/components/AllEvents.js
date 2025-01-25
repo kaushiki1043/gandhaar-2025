@@ -457,7 +457,7 @@ const events = {
     structure: [
       "Participation: 1 team per department ",
       "Team Size: -",
-      "Venue: Instrumentation Auditorium",
+      "Venue: Main Building Quadrangle",
       "Date: Day 1 (Wednesday, 29th January 2025)",
       "Time: 12:30 PM - 2:30 PM",
     ],
@@ -627,7 +627,7 @@ const events = {
     structure: [
       "Team Size: 6 Members(Minimum 4,Maximum 6)",
       "Participation: 1 team per department (1 student per year) ",
-      "Venue: KB Joshi Auditorium",
+      "Venue: Main Building Quadrangle",
       "Date: Day 1 (Wednesday, 29th January 2025)",
       "Time: 2:30 PM - 4:30 PM",
     ],

@@ -99,7 +99,7 @@ const daySchedules = {
       start: "12:30 PM",
       end: "2:30 PM",
       background: "linear-gradient(to right, #ff416c, #ff4b2b)",
-      location: "INSTRUMENTATION AUDITORIUM",
+      location: "MAIN BUILDING QUADRANGLE",
     },
     {
       id: 8,
@@ -140,7 +140,7 @@ const daySchedules = {
       start: "2:30 PM",
       end: "4:30 PM",
       background: "linear-gradient(to right,#ff6fd8, #3813c2)",
-      location: "KB JOSHI HALL",
+      location: "MAIN BUILDING QUADRANGLE",
       href: event_details["Shantit Kranti"].detailsUrl,
     },
     {
